@@ -1,9 +1,9 @@
 package tui.tests;
 
 import org.junit.jupiter.api.Test;
-import tui.Interpreter;
+import tui.interpreter.Interpreter;
 import tui.exceptions.UndeclaredException;
-import tui.parser.Value;
+import tui.interpreter.Value;
 
 import java.util.Optional;
 

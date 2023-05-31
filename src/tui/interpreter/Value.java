@@ -1,9 +1,11 @@
-package tui.parser;
+package tui.interpreter;
+
+import tui.parser.NodeOrLeaf;
 
 import java.util.Objects;
 import java.util.Optional;
 
-public class Value extends NodeOrLeaf  {
+public class Value extends NodeOrLeaf {
     float value;
     Optional<Unit> unit;
     int exponent;

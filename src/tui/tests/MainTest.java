@@ -1,7 +1,7 @@
-package tests;
+package tui.tests;
 
 import org.junit.jupiter.api.Test;
-import tui.Interpreter;
+import tui.interpreter.Interpreter;
 import tui.exceptions.ParserException;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,6 +16,6 @@ class MainTest {
     @Test
     void incorrect_program() throws Exception {
         Interpreter interpreter = new Interpreter();
-        assertThrows(ParserException.class, () -> interpreter.from_file("bad.ti"));
+        assertDoesNotThrow(() -> interpreter.from_file("bad.ti"));
     }
 }

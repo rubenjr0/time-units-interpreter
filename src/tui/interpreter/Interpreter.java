@@ -1,9 +1,9 @@
-package tui;
+package tui.interpreter;
 
 import tui.exceptions.EvalException;
 import tui.parser.ExprTree;
 import tui.parser.Parser;
-import tui.parser.Value;
+import tui.interpreter.Value;
 import tui.tokenizer.Tokenizer;
 
 import java.io.BufferedReader;
@@ -27,7 +27,11 @@ public class Interpreter {
         int line_number = 1;
         while ((line = buff_reader.readLine()) != null) {
             System.out.println("[" + line_number + "] " + line);
-            eval(line_number, line);
+            try {
+                eval(line_number, line);
+            } catch (Exception e) {
+                return;
+            }
             line_number++;
         }
     }

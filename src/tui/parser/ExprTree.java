@@ -1,6 +1,7 @@
 package tui.parser;
 
 import tui.exceptions.UndeclaredException;
+import tui.interpreter.Value;
 import tui.tokenizer.Token;
 import tui.tokenizer.TokenType;
 

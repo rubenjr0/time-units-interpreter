@@ -1,4 +1,4 @@
-package tui.parser;
+package tui.interpreter;
 
 public enum UnitValue  {
     SECOND,

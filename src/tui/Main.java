@@ -1,5 +1,7 @@
 package tui;
 
+import tui.interpreter.Interpreter;
+
 public class Main {
     public static void main(String[] args) throws Exception {
         // get the path to a file from the command line, else run repl

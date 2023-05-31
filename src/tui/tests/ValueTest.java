@@ -1,8 +1,8 @@
 package tui.tests;
 
 import org.junit.jupiter.api.Test;
-import tui.parser.Unit;
-import tui.parser.Value;
+import tui.interpreter.Unit;
+import tui.interpreter.Value;
 
 import java.util.Optional;
 

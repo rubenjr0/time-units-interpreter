@@ -1,5 +1,7 @@
 package tui.parser;
 
+import tui.interpreter.Value;
+
 import java.util.HashMap;
 
 public interface Expr {

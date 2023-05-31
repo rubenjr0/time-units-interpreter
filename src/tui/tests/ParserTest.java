@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import tui.exceptions.ParserException;
 import tui.parser.ExprTree;
 import tui.parser.Parser;
-import tui.parser.Value;
+import tui.interpreter.Value;
 import tui.tokenizer.Token;
 import tui.tokenizer.TokenType;
 import tui.tokenizer.Tokenizer;

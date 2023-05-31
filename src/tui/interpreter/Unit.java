@@ -1,4 +1,4 @@
-package tui.parser;
+package tui.interpreter;
 
 import java.util.Objects;
 import java.util.Optional;
